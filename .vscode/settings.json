@@ -7,5 +7,11 @@
   },
   "[prisma]": {
     "editor.formatOnSave": true
-  }
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#9f0003",
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#e6ff00"
+  },
+  "cSpell.words": ["Abril", "Fatface", "tamarillo"]
 }
