@@ -8,7 +8,7 @@
 //   return <Poster {...args} />
 // }
 // ```
-//
+// Terminal command: yarn rw storybook
 // See https://storybook.js.org/docs/react/writing-stories/args.
 
 import type { ComponentMeta } from '@storybook/react'
@@ -28,4 +28,38 @@ export const Primary = Template.bind({})
 Primary.args = {
   src: hocusPocus,
   alt: 'Hocus Pocus 2',
+}
+
+export const Large = Template.bind({})
+
+Large.args = {
+  src: hocusPocus,
+  alt: 'Hocus Pocus 2',
+  size: 'large',
+}
+
+export const Medium = Template.bind({})
+
+Medium.args = {
+  src: hocusPocus,
+  alt: 'Hocus Pocus 2',
+  size: 'medium',
+}
+
+export const Small = Template.bind({})
+
+Small.args = {
+  src: hocusPocus,
+  alt: 'Hocus Pocus 2',
+  size: 'small',
+}
+
+export const WithText = Template.bind({})
+
+WithText.args = {
+  src: hocusPocus,
+  alt: 'Hocus Pocus 2',
+  size: 'large',
+  heading: 'My Heading',
+  subheading: 'My Subheading',
 }
