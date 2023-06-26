@@ -9,9 +9,9 @@ export default {
   component: Percentage,
 } as ComponentMeta<typeof Percentage>
 
-const Template = (args) => <Percentage {...args} />
+const Template = (args: PercentageProps) => <Percentage {...args} />
 
 export const Primary = Template.bind({})
 Primary.args = {
-  // args
+  Percentage: 88,
 }
